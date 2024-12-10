@@ -1,0 +1,144 @@
+.h-dvh {
+  min-height: 100vh;
+}
+
+.custom-a {
+  background-color: transparent;
+  color: #0969da;
+  text-decoration: none;
+}
+
+.custom-strong {
+  font-weight: 600;
+}
+
+.custom-mark {
+  background-color: #fff8c5;
+  color: #1f2328;
+}
+
+.custom-img {
+  border-style: none;
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #ffffff;
+}
+
+.custom-h1,
+.custom-h2,
+.custom-h3,
+.custom-h4,
+.custom-h5,
+.custom-h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.custom-h1 {
+  margin: 0.67em 0;
+  font-weight: 600;
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  border-bottom: 1px solid hsla(210, 18%, 87%, 0.2);
+}
+
+.custom-h2 {
+  font-weight: 600;
+  padding-bottom: 0.3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid hsla(210, 18%, 87%, 0.2 );
+}
+
+.custom-h3 {
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+.custom-h4 {
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.custom-h5 {
+  font-weight: 600;
+  font-size: 0.875em;
+}
+
+.custom-h6 {
+  font-weight: 600;
+  font-size: 0.85em;
+  color: #656d76;
+}
+
+.custom-p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.custom-code {
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    SF Mono,
+    Menlo,
+    Consolas,
+    Liberation Mono,
+    monospace;
+  font-size: 12px;
+  background-color: #3e3e57;
+  color: #fff;
+  border-radius: 7px;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.custom-codeblock {
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    SF Mono,
+    Menlo,
+    Consolas,
+    Liberation Mono,
+    monospace;
+  font-size: 12px;
+  background-color: #3e3e57;
+  color: #fff;
+  border-radius: 7px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 10px;
+}
+
+.custom-span,
+.custom-paragraph {
+  line-height: 30px;
+}
+
+.custom-del {
+  text-decoration: line-through;
+}
+
+.custom-blockquote {
+  margin: 2px;
+  padding: 3px;
+  border-left: 4px solid #718096;
+  border-radius: 2px;
+}
+
+.custom-hr {
+  border: 1px solid #d1d5db;
+  margin: 16px 0;
+}
+
+.custom-ul,
+.custom-ol {
+  padding-left: 20px;
+}
+
+.custom-li {
+  font-weight: bold;
+}
