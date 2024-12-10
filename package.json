@@ -1,16 +1,16 @@
 {
   "name": "@codeantu/md",
   "private": false,
-  "version": "1.0.0",
+  "version": "2.1.0",
   "type": "module",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
     "dev": "vite",
-    "build": "tsc",
+    "build": "tsc && copyfiles index.css dist",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "publish": "npm publish"
@@ -24,6 +24,8 @@
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react-swc": "^3.5.0",
+    "copyfiles": "^2.4.1",
+    "cpx": "^1.5.0",
     "eslint": "^9.15.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { Token } from "./token/types";
-import findComponents from "./token/findComponents";
-import Exp from "./Render/ComponentRenderer";
 import "./index.css";
+import findComponents from "./parser/findComponents";
+import { Token } from "./parser/types";
+import Exp from "./renderer/ComponentRenderer";
 
 export default function MDComponent({ text }: { text?: string }) {
   const [component, setComponent] = useState([] as Token[]);
