@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-![MD Compiler](https://codeantu.github.io/md/MDCompiler)
+![MD Compiler](https://codeantu.github.io/md/public/MDCompiler.svg)
 
 This is a simple markdown compiler that takes a markdown file as input and outputs an React component that can be used to render the markdown.
 
