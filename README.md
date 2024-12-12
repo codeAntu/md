@@ -7,7 +7,7 @@
 
 <!-- image and local link  -->
 
-  ![MD Compiler](./public/MD%20compiler.svg)  
+  ![MD Compiler](./MD%20compiler.svg)  
 
 This is a simple markdown compiler that takes a markdown file as input and outputs an React component that can be used to render the markdown.
 
