@@ -150,7 +150,6 @@ export default function findComponents(text: string) {
     // ordered list
 
     if (text[current] >= '0' && text[current] <= '9' && text[current + 1] === '.' && text[current + 2] === ' ') {
-      console.log('ordered list');
       let space = 0;
       let start = current;
       let value = '';
@@ -188,6 +187,5 @@ export default function findComponents(text: string) {
     }
   }
 
-  console.log(components);
   return components;
 }

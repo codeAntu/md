@@ -73,13 +73,11 @@ export default function unList(text: string, level: number, space: number) {
     // }
     else {
       let value = '';
-      console.log('in loop 3');
 
       while (current < text.length && text[current] !== '\n') {
         value += text[current];
         current++;
       }
-      console.log(current);
 
       token.push({
         type: 'span',

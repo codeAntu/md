@@ -13,7 +13,6 @@ export default function Heading(text: string) {
 
     if (headerMatch) {
       let header = headerMatch[0];
-      // console.log(header);
       let headerSize = header.length - 1;
       let value = text.replace(headerRegex, '');
 

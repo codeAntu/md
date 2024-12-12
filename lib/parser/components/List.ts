@@ -32,13 +32,11 @@ export default function olList(text: string, level: number, space: number) {
       continue;
     } else {
       let value = '';
-      console.log('in loop 3');
 
       while (current < text.length && text[current] !== '\n') {
         value += text[current];
         current++;
       }
-      console.log(current);
 
       tokens.push({
         type: 'span',

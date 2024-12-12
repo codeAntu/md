@@ -12,11 +12,5 @@ export default function MDComponent({ text }: { text?: string }) {
     setComponent(findComponents(text));
   }, [text]);
 
-  console.log(component);
-
-  return (
-    <>
-      <Exp components={component} />
-    </>
-  );
+  return <Exp components={component} />;
 }
