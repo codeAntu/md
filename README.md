@@ -9,6 +9,8 @@
 
 This is a simple markdown compiler that takes a markdown file as input and outputs an React component that can be used to render the markdown.
 
+# [Live Demo](https://mdcompiler.vercel.app/)
+
 ## Getting Started
 
 ### Installation
